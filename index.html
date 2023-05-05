@@ -21,13 +21,87 @@
 </head>
 <body>
 
-    <header>
-        
+    <header class="bg-light h-150px">
+        <nav class="navbar bg-light ">
+            <div class="container-fluid d-flex flex-nowrap">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.svg" alt="Bootstrap">
+                </a>
+
+                <form class="d-flex w-100" role="search">
+                    <button class="my_btn_search btn rounded-start" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input class="my_input_search form-control me-2 rounded-end" type="search" placeholder="Prova a cercare: Lezioni di programmazione belle" aria-label="Search">
+                </form>
+
+                <ul class="ps-1 mb-0 d-flex">
+                    <li class="nav-item px-2 d-none d-lg-block">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 d-none  d-lg-block">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 d-none d-lg-block">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+          </nav>
     </header>
     
-    <nav class="side-bar">
+    <main>
+        <nav class="side-bar d-flex flex-column justify-content-between align-item-center text-light py-4">
+            <ul>
+                <li class="pb-3">
+                    <i class="fa-solid fa-house pe-2"></i>
+                    <span class="d-none d-lg-inline-block">
+                        Home
+                    </span>
+                </li>
+                <li class="pb-3">
+                    <i class="fa-solid fa-chart-simple pe-2"></i>
+                    <span class="d-none d-lg-inline-block">
+                        Stats
+                    </span>
+                </li>
+                <li class="pb-3">
+                    <i class="fa-solid fa-signal pe-2"></i>
+                    <span class="d-none d-lg-inline-block">
+                        Signals
+                    </span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="d-none d-lg-inline-block">
+                        Admin
+                    </span>
+                </li>
+            </ul>
+        </nav>
 
-    </nav>
+        
+
+    </main>
 
 </body>
 </html>

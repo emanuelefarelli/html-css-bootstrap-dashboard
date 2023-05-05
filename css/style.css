@@ -4,3 +4,42 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style-type: none;
+}
+
+/* HEADER */
+
+header{
+    background-color: white;
+    height: 50px;
+}
+
+header img{
+    width: 130px;
+}
+
+header button.my_btn_search,
+header input.my_input_search{
+    background-color: #e5e5e5;
+    border-radius: 0;
+    border: none;
+}
+
+/* header div.container-fluid>ul{
+    width: 250px;
+} */
+
+/* SIDE-BAR */
+
+main nav.side-bar{
+    height: calc(100vh - 50px);
+    width: 150px;
+    background-color: darkblue;
+}
+
+@media screen and (max-width: 992px){
+    main nav.side-bar{
+        width: 80px;
+    }
+}
