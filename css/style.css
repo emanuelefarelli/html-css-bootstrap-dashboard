@@ -15,8 +15,12 @@ header{
     height: 50px;
 }
 
-header img{
+header img.my_logo_desktop{
     width: 130px;
+}
+
+header img.my_logo_mobile{
+    width: 35px;
 }
 
 header button.my_btn_search,
@@ -35,15 +39,22 @@ header input.my_input_search{
 main nav.side-bar{
     height: calc(100vh - 50px);
     min-width: 150px;
-    background-color: darkblue;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
 }
+
+
+/* MY INFO */
 
 section.my_info{
     background-color: aqua;
     height: calc(100vh - 50px);
 }
 
-/* MY INFO */
+section.my_info div.my_main-content{
+    height: calc(100vh - 180px);
+    overflow: auto;
+}
 
 section.my_info div.top_nav_info{
     height: 130px;
@@ -59,6 +70,7 @@ section.my_info div.right_cont{
     background-color: red;
     height: 600px;
 }
+
 
 @media screen and (max-width: 992px){
     main nav.side-bar{
