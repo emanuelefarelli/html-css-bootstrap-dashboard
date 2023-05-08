@@ -102,9 +102,22 @@ section.my_prossime_classi span{
 
 /* MY FAQ */
 
-section.my_faq p.my_faq_question{
-    font-size: 1rem;
+section.my_faq p.my_faq_question,    
+section.my_faq div.my_faq_answer{    
+    font-size: 0.8rem;
 }
+
+section.my_todo span{
+    font-size: 0.8rem;
+}
+
+/* MY USERS STATS */
+
+section.my_users_stats p,
+section.my_users_stats a{
+    font-size: 0.8rem;
+}
+
 
 @media screen and (max-width: 992px){
     main nav.side-bar{
