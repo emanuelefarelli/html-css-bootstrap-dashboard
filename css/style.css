@@ -34,12 +34,34 @@ header input.my_input_search{
 
 main nav.side-bar{
     height: calc(100vh - 50px);
-    width: 150px;
+    min-width: 150px;
     background-color: darkblue;
+}
+
+section.my_info{
+    background-color: aqua;
+    height: calc(100vh - 50px);
+}
+
+/* MY INFO */
+
+section.my_info div.top_nav_info{
+    height: 130px;
+    background-color: #1b72e8;
+}
+
+section.my_info div.left_cont{
+    background-color: pink;
+    height: 400px;
+}
+
+section.my_info div.right_cont{
+    background-color: red;
+    height: 600px;
 }
 
 @media screen and (max-width: 992px){
     main nav.side-bar{
-        width: 80px;
+        min-width: 80px;
     }
 }
