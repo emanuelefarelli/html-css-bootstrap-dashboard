@@ -8,6 +8,14 @@ ul{
     list-style-type: none;
 }
 
+p{
+    margin: 0;
+}
+
+.my_fs_xs{
+    font-size: 0.75rem;
+}
+
 /* HEADER */
 
 header{
@@ -43,11 +51,9 @@ main nav.side-bar{
     background-color: #051e34;
 }
 
-
 /* MY INFO */
 
 section.my_info{
-    background-color: aqua;
     height: calc(100vh - 50px);
 }
 
@@ -62,18 +68,54 @@ section.my_info div.top_nav_info{
 }
 
 section.my_info div.left_cont{
-    background-color: pink;
     height: 400px;
 }
 
 section.my_info div.right_cont{
-    background-color: red;
     height: 600px;
 }
 
+/* section.my_info div.my_class_info p{
+    padding: 0 1.3rem;
+} */
+
+section.my_info section{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+section.my_info section h1{
+    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+    background-color: #f7f7f7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* MY PROSSIME CLASSI */
+
+section.my_prossime_classi div.my_class_info{
+    width: 300px;
+}
+
+section.my_prossime_classi div.my_row img{
+    height: 1.5rem;
+}
+
+section.my_prossime_classi span{
+font-size: 0.6rem;
+}
 
 @media screen and (max-width: 992px){
     main nav.side-bar{
         min-width: 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section.my_prossime_classi div.my_class_info{
+        width: 150px;
     }
 }
