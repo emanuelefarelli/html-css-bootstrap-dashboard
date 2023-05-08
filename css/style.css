@@ -67,14 +67,6 @@ section.my_info div.top_nav_info{
     background-color: #1b72e8;
 }
 
-section.my_info div.left_cont{
-    height: 400px;
-}
-
-section.my_info div.right_cont{
-    height: 600px;
-}
-
 /* section.my_info div.my_class_info p{
     padding: 0 1.3rem;
 } */
@@ -105,7 +97,13 @@ section.my_prossime_classi div.my_row img{
 }
 
 section.my_prossime_classi span{
-font-size: 0.6rem;
+    font-size: 0.6rem;
+}
+
+/* MY FAQ */
+
+section.my_faq p.my_faq_question{
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 992px){
