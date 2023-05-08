@@ -38,9 +38,11 @@ header input.my_input_search{
     border: none;
 }
 
-/* header div.container-fluid>ul{
-    width: 250px;
-} */
+/* TOP NAV */
+
+div.top_nav_info span.my_badge-bg{
+    background-color: #165bba;
+}
 
 /* SIDE-BAR */
 
@@ -49,6 +51,10 @@ main nav.side-bar{
     min-width: 150px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
+}
+
+nav.side-bar button:hover{
+    background-color: rgba(255, 255, 255, 0.301);
 }
 
 /* MY INFO */
